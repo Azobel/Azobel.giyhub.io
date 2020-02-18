@@ -8,9 +8,10 @@ body {
 }
 
 /* header rules here*/
+div#headerWrapper {background-color: #17a8e4;}
 header {
-    background-color: #17a8e4;
     padding: 1rem 2%;
+
 }
 header h1 {
     margin: 0;
@@ -21,7 +22,8 @@ header h2 {
 }
 
 /* navigation rules here*/
-nav {background-color: #111;}
+div#navWrapper{background-color: #111;}
+nav {}
 nav ul{margin: 0; padding:0;}
 nav li {list-style-Type: none;}
 nav li.active {background-color: #333333;}
@@ -35,11 +37,13 @@ nav a {
 nav a:hover {background-color: #444444;}
 
 /*main rules here*/
+div#mainWrapper {background-color:#17a8e4 ;}
 main {
+    background-color: white;
     padding: 1rem 2%;
     display: block;
 }
-main h1 {color: #17a8e4;}
+main h1 {}
 
 main figure img {width: 100%;}
 main figure {
@@ -48,11 +52,12 @@ main figure {
 }
 main figcaption {text-align:center; font-size: .8rem;}
 
+/*------------- FOOTER ----------------*/
+div#footerWrapper {background-color: #eee} 
 footer {
     text-align: center;
     padding: 1rem 2%;
-    background-color: #eee;
-    
+        
 }
 
 
